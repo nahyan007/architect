@@ -6,7 +6,7 @@
 }
 
 .container{
-    padding:  30px 150px;
+    padding:  4% 10%;
 }
 
 /*colors*/
@@ -99,9 +99,11 @@ header{
 
 /*.................................main section start................................................*/
 section{
-    margin: 55px 0;
+    margin: 70px 0;
 }
 
+
+/*quick feature*/
 .quick-feature{
     display: flex;
     align-items: center;
@@ -110,7 +112,7 @@ section{
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 4px;
+    grid-gap: 10px;
 }
 
 .quick-feature-left-img{
@@ -132,6 +134,91 @@ section{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+}
+
+
+/*loving feature*/
+.loving-feature{
+    display: flex;
+    align-items: center;
+
+}
+
+.loving-feature-left{
+    width: 50%;
+    margin-right: 30px;
+    padding-right: 10px;
+}
+
+.loving-feature-title{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+    margin-bottom: 24px;
+}
+
+.loving-feature-details{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    /*width: 100%;*/
+}
+
+.loving-feature-lists{
+    /*width: 100%;*/
+}
+
+.loving-feature-list{
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px #727272;
+    width: 100%;
+}
+
+.loving-feature-list-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.loving-feature-list-details{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.loving-feature-right{
+    width: 50%;
+    height: 900px;
+    /*width: 800px;*/
+    position: relative;
+
+}
+
+.loving-feature-right-img{
+
+    height: 850px;
+    width: 480px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.loving-feature-right-btn{
+    padding: 40px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.btn-text-1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.btn-text-2{
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /*.................................main section end..................................................*/
