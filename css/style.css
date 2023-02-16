@@ -99,7 +99,7 @@ header{
 
 /*.................................main section start................................................*/
 section{
-    margin: 70px 0;
+    margin: 10% 0;
 }
 
 
@@ -121,7 +121,7 @@ section{
 }
 
 .quick-feature-right{
- padding-left: 20px;
+ padding-left: 60px;
 }
 
 .quick-feature-title{
@@ -197,7 +197,7 @@ section{
 
 .loving-feature-right-img{
 
-    height: 850px;
+    height: 800px;
     width: 480px;
     position: absolute;
     top: 0;
@@ -220,6 +220,50 @@ section{
     font-size: 25px;
     font-weight: 500;
 }
+
+
+/*fact section*/
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.facts-details{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.facts-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facts-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts-list-icon{
+    height: 45px;
+    width: 45px;
+}
+
+.facts-list-title{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.facts-list-details{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*sponsar section*/
 
 /*.................................main section end..................................................*/
 
