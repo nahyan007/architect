@@ -368,6 +368,159 @@ section{
         text-align: center;
     }
 
+    /*lovng feature*/
+    .loving-feature-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loving-feature-right-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .loving-feature-right-img-sm{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        right: 20px;
+
+    }
+    .loving-feature-right-btn {
+        padding: 20px;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        top: 0;
+        left: 0px;
+    }
+
+    /*fact*/
+    .facts-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .facts-list-sm{
+        margin-bottom: 50px;
+    }
+
+    /*sponsar*/
+    .sponsor-list-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mb-sm{
+        margin-bottom: 50px;
+    }
 }
 
+
+
+
+
+/*for tab*/
+@media screen and (min-width: 576px) and (max-width: 1247px){
+
+    /*header section*/
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-list-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .navbar-list-item-sm{
+        margin-bottom: 10px;
+    }
+
+
+    /*quick feature section*/
+    .quick-feature-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quick-feature-left-sm{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .quick-feature-right-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-align-sm{
+        text-align: center;
+    }
+
+    /*lovng feature*/
+    .loving-feature-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loving-feature-right-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .loving-feature-right-img-sm{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        right: 20px;
+
+    }
+    .loving-feature-right-btn {
+        padding: 20px;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        top: 0;
+        left: 0px;
+    }
+
+    /*fact*/
+    .facts-lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .facts-list-sm{
+        margin-bottom: 50px;
+    }
+
+    /*sponsar*/
+    .sponsor-list-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mb-sm{
+        margin-bottom: 50px;
+    }
+}
 /*.................................responsive section end............................................*/
