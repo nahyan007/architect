@@ -22,6 +22,7 @@
 .bg-muted { background-color:#727272; }
 .bg-white { background-color:#FFFFFF; }
 .bg-black { background-color:#131313; }
+.bg-footer { background-color:#FFF4E7; }
 
 /*explore more button*/
 .explore-more-btn{
@@ -301,5 +302,12 @@ section{
 
 
 /*.................................footer section start..............................................*/
+.footer-details{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 100px;
+}
 
 /*.................................footer section end................................................*/
