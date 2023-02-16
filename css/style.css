@@ -264,8 +264,40 @@ section{
 }
 
 /*sponsar section*/
+.sponsor{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+}
+
+.sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sponsor-details{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsor-list-img{
+    height: 50px;
+    filter: grayscale(100%);
+
+}
 
 /*.................................main section end..................................................*/
+
+
 
 
 /*.................................footer section start..............................................*/
